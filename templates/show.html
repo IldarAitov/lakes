@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel="stylesheet" href="../src/styles.css">
+	</head>
+	<body>
+		<header>
+			{{ menu }}
+		</header>
+		<main>
+			<br>
+			<br>
+			<p>{{ name }}</p>
+			<p>Площадь: {{ area }}</p>
+			<p>Максимальная глубина: {{ max_depth }}</p>
+			<p>Краткое описание: {{ description }}</p><br>
+			{{ content }}
+			<img src="/images/lakes/{{ slug }}/1.jpg">
+			<img src="/images/lakes/{{ slug }}/2.jpg">
+			<img src="/images/lakes/{{ slug }}/3.jpg">
+		</main>
+		<header>
+			footer
+		</header>
+	</body>
+</html>
